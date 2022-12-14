@@ -8,5 +8,53 @@
     background-color: peachpuff;
     border: 5px solid brown;
     height: 200px;
+    flex: content;
+    width: 100px;
+}
+
+
+.flex-types{
+    margin: 20px;
+    background-color: grey;
+}
+.one1, .two2, .three3, .four4, .five5{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: 20px;
+    /* border: 5px solid yellow; */
+
+}
+
+.auto{
+    flex: auto;
+    
+}
+
+.initial{
+    flex: initial;
+}
+
+.none{
+    flex: none;
+}
+
+.f4{
+    flex: 4;
+}
+
+.f2{
+    flex: 2;
+}
+
+.f1{
     flex: 1;
 }
+.bl{
+    margin: 10px;
+    border: 5px solid red;
+    width: 250px;
+}
+
+
