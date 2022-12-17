@@ -1,6 +1,7 @@
 .flex-container
 {
     display:flex;
+    flex-direction: column;
 }
 
 .flex-container div 
@@ -8,9 +9,13 @@
     background-color: peachpuff;
     border: 5px solid brown;
     height: 200px;
-    flex: content;
-    width: 100px;
+    flex: 1 1 auto;
 }
+
+
+
+
+
 
 
 .flex-types{
