@@ -2,6 +2,7 @@
 {
     display:flex;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 .flex-container div 
@@ -13,6 +14,24 @@
 }
 
 
+.flex-containerTwo
+{
+    display:flex;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.flex-containerTwo div{
+    background-color: peachpuff;
+    border: 5px solid brown;
+    width: 100px;
+    height: 100px;
+}
+.three{
+    align-self: flex-start;
+}
 
 
 
